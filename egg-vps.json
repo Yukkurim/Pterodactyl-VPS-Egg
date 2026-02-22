@@ -4,15 +4,15 @@
         "version": "PTDL_v2",
         "update_url": null
     },
-    "exported_at": "2025-08-09T20:09:25+00:00",
-    "name": "VPS - Egg",
-    "author": "mrnitro2017@gmail.com",
-    "description": "A powerful and lightweight Virtual Private Server (VPS) egg for Pterodactyl Panel.\r\nSee: https:\/\/github.com\/ysdragon\/Pterodactyl-VPS-Egg",
+    "exported_at": "2025-02-22T20:09:25+00:00",
+    "name": "VPS - Egg - Japanese",
+    "author": "yukkurim@yukkurim.xyz",
+    "description": "A powerful and lightweight Virtual Private Server (VPS) egg for Pterodactyl Panel.\r\nSee: https:\/\/github.com\/Yukkurim\/Pterodactyl-VPS-Egg",
     "features": null,
     "docker_images": {
-        "Quay.io": "quay.io\/ydrag0n\/pterodactyl-vps-egg:latest",
-        "Docker Hub": "ysdragon\/pterodactyl-vps-egg:latest",
-        "GitHub Container Registry": "ghcr.io\/ysdragon\/pterodactyl-vps-egg:latest"
+        "Quay.io": "quay.io\/Yukkurim\/pterodactyl-vps-egg:latest",
+        "Docker Hub": "Yukkurim\/pterodactyl-vps-egg:latest",
+        "GitHub Container Registry": "ghcr.io\/Yukkurim\/pterodactyl-vps-egg:latest"
     },
     "file_denylist": [],
     "startup": ".\/run.sh",
@@ -25,7 +25,7 @@
     "scripts": {
         "installation": {
             "script": "#!\/bin\/bash\r\n\r\ncd \/mnt\/server\/",
-            "container": "quay.io\/ydrag0n\/pterodactyl-vps-egg",
+            "container": "quay.io\/Yukkurim\/pterodactyl-vps-egg",
             "entrypoint": "bash"
         }
     },
